@@ -1,10 +1,11 @@
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white py-4 lg:px-12 shadow border-t-2 border-blue-700">
-      {/* this here is the logo area and logo  */}
       <div className="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-b-2 border-gray-300 pb-5 lg:pb-0">
         <div className="flex items-center flex-shrink-0 text-gray-800 mr-6">
-          <span className="font-semibold text-xl tracking-tight">My LOGO</span>
+          <span className="font-semibold text-xl tracking-tight">
+            My Navbar
+          </span>
         </div>
         <div className="block lg:hidden">
           <button
@@ -23,9 +24,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="menu w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
-        {/* this here is the search bar and icon */}
-        <div className="relative mx-auto text-gray-600 lg:block hidden">
+      <div className="menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
+        {/* search bar */}
+        <div className="relative mx-auto text-gray-600 lg:block hidde">
           <input
             className="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
             type="search"
@@ -43,23 +44,22 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* this here is menue buttons */}
-        <div className="text-md font-bold text-blue-700 lg:flex-grow">
+        {/* Menu buttons location */}
+        <div className="text-md font-bold text-blue-700 flex">
           <a
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
           >
-            My List
+            MY List
           </a>
           <a
             href="#responsive-header"
             className=" block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
           >
-            extra
+            Seasonal
           </a>
         </div>
-
-        {/* this here is the sign in and login button */}
+        {/* sign in button */}
         <div className="flex ">
           <a
             href="#"

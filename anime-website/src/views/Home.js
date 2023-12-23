@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function Home() {
+const Navbar = () => {
   return (
     <>
-      <h1>Hello world?</h1>
+      <image />
     </>
   );
-}
+};
