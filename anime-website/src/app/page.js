@@ -5,7 +5,6 @@ import Home from "@/views/Home";
 export default function Homepage() {
   return (
     <>
-      <Navbar />
       <Home />
       <Button> Button Test </Button>
     </>
