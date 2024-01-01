@@ -13,6 +13,9 @@ function SearchPage({ params: { term } }) {
   // the "term" is mainly for testing Purposes but can be used later
   // it is the term the users searches for
   return <div>Searched for: {termToUse}</div>;
+
+  // TODO: API call to get the searched movies
+  // TODO: API call to get the popular movies
 }
 
 export default SearchPage;

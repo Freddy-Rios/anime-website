@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
 import Home from "@/views/Home";
 
 export default function Homepage() {
@@ -6,6 +7,7 @@ export default function Homepage() {
     <>
       <Navbar />
       <Home />
+      <Button> Button Test </Button>
     </>
   );
 }
