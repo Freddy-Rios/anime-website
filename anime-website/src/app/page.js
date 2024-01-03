@@ -1,9 +1,12 @@
-import Image from "next/image";
+// import { Routes, Route, Navigate } from 'react-router-dom'
 
-export default function Home() {
+import Search from '../views/Search'
+import AnimeInfo from '../views/anime_info'
+
+function App() {
   return (
-    <>
-      <h1>Hello world?</h1>
-    </>
+    <AnimeInfo />
   );
 }
+
+export default App;
